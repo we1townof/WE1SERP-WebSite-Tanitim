@@ -19,17 +19,3 @@ export interface PricingPlan {
   isPopular?: boolean;
   color?: string;
 }
-
-export enum IntentType {
-  INFORMATIONAL = 'Bilgi',
-  NAVIGATIONAL = 'Gezinme',
-  COMMERCIAL = 'Ticari',
-  TRANSACTIONAL = 'İşlem',
-}
-
-export interface KeywordIdea {
-  keyword: string;
-  difficulty: string;
-  volume: string;
-  intent: IntentType;
-}
